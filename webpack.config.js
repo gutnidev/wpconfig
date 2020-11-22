@@ -9,7 +9,7 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 const isDev = process.env.NODE_ENV === 'development';
 const isProd = !isDev;
-console.log('IS DEV:..', isDev);
+console.log('IS DEV: test', isDev);
 console.log('IS PROD: ', isProd);
 
 module.exports = {
